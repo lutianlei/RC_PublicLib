@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Dc0-ua-rbe">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Test Camera View Controller-->
+        <scene sceneID="ce6-t3-hab">
+            <objects>
+                <viewController id="Dc0-ua-rbe" customClass="MCTestCameraViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MiF-Hg-Fu1"/>
+                        <viewControllerLayoutGuide type="bottom" id="SNo-J1-xKp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ncm-Qc-YTj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x9O-Sp-8MS">
+                                <rect key="frame" x="67" y="157" width="240" height="169"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yGE-Hq-1ei">
+                                <rect key="frame" x="157" y="441" width="60" height="30"/>
+                                <state key="normal" title="调用相机"/>
+                                <connections>
+                                    <action selector="clickCameraAction:" destination="Dc0-ua-rbe" eventType="touchUpInside" id="anW-bs-UDJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x9O-Sp-8MS" firstAttribute="top" secondItem="MiF-Hg-Fu1" secondAttribute="bottom" constant="137" id="Dcs-Bo-7bM"/>
+                            <constraint firstItem="SNo-J1-xKp" firstAttribute="top" secondItem="yGE-Hq-1ei" secondAttribute="bottom" constant="196" id="SLu-io-ogw"/>
+                            <constraint firstAttribute="trailing" secondItem="x9O-Sp-8MS" secondAttribute="trailing" constant="68" id="USg-g3-i3F"/>
+                            <constraint firstItem="x9O-Sp-8MS" firstAttribute="leading" secondItem="Ncm-Qc-YTj" secondAttribute="leading" constant="67" id="Zg3-NL-Q7d"/>
+                            <constraint firstItem="SNo-J1-xKp" firstAttribute="top" secondItem="x9O-Sp-8MS" secondAttribute="bottom" constant="341" id="g3z-f8-yzS"/>
+                            <constraint firstItem="yGE-Hq-1ei" firstAttribute="centerX" secondItem="Ncm-Qc-YTj" secondAttribute="centerX" id="hf3-fN-fWl"/>
+                            <constraint firstItem="yGE-Hq-1ei" firstAttribute="top" secondItem="x9O-Sp-8MS" secondAttribute="bottom" constant="115" id="rzX-cc-j59"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="imageView" destination="x9O-Sp-8MS" id="f6E-U1-saj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lsO-ZM-CwJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480.5" y="389.5"/>
+        </scene>
+    </scenes>
+</document>

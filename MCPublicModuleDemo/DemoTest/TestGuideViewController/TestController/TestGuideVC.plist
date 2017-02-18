@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TestGuideVC1</key>
+	<dict>
+		<key>kTouchOutSideKey</key>
+		<true/>
+		<key>kTouchInSideKey</key>
+		<false/>
+		<key>kShowCloseViewKey</key>
+		<true/>
+		<key>kImageNameKey</key>
+		<array>
+			<string>test1</string>
+			<string>test2</string>
+			<string>test3</string>
+			<string>test4</string>
+		</array>
+	</dict>
+	<key>TestGuideVC2</key>
+	<dict>
+		<key>kTouchOutSideKey</key>
+		<false/>
+		<key>kTouchInSideKey</key>
+		<true/>
+		<key>kShowCloseViewKey</key>
+		<true/>
+		<key>kImageNameKey</key>
+		<array>
+			<string>test4</string>
+			<string>test2</string>
+			<string>test5</string>
+		</array>
+	</dict>
+	<key>TestGuideVC5</key>
+	<dict>
+		<key>kTouchOutSideKey</key>
+		<false/>
+		<key>kTouchInSideKey</key>
+		<false/>
+		<key>kShowCloseViewKey</key>
+		<true/>
+		<key>kImageNameKey</key>
+		<array>
+			<string>test5</string>
+			<string>test3</string>
+			<string>test2</string>
+			<string>test1</string>
+			<string>test4</string>
+		</array>
+	</dict>
+</dict>
+</plist>

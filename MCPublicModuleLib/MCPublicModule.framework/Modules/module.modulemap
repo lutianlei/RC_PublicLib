@@ -1,0 +1,6 @@
+framework module MCPublicModule {
+  umbrella header "MCPublicModule.h"
+
+  export *
+  module * { export * }
+}

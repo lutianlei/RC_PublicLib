@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>kClassNameKey</key>
+		<string>MCTestBasicViewController</string>
+		<key>kActionType</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>kClassNameKey</key>
+		<string>MCTestPopView</string>
+		<key>kActionType</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>kClassNameKey</key>
+		<string>TestCityClass</string>
+		<key>kActionType</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>kClassNameKey</key>
+		<string>TestGuideViewClass</string>
+		<key>kActionType</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>kClassNameKey</key>
+		<string>MCTestCamera</string>
+		<key>kActionType</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>kClassNameKey</key>
+		<string>TestBasicGuideViewController</string>
+		<key>kActionType</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>kClassNameKey</key>
+		<string>TestSegment</string>
+		<key>kActionType</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>kClassNameKey</key>
+		<string>TestBarItemHidenShowForScroll</string>
+		<key>kActionType</key>
+		<true/>
+	</dict>
+</array>
+</plist>
